@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+    --color-dark-purple: oklch(0.1354 0.0692 293.16);
+    --color-rich-black: oklch(0.1522 0.0417 287.52);
+    --color-battleship-gray: oklch(0.6633 0 0);
+    --color-french-gray: oklch(0.8489 0.0098 299.21);
+    --color-light-gray: oklch(0.9431 0 0);
+    --color-anti-flash-white: oklch(0.9668 0.0058 264.53);
+}
