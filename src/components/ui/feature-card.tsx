@@ -1,37 +1,43 @@
 import clsx from "clsx";
 import { IconWrapper } from "./icon-wrapper";
 import { TextLink } from "./text-link";
+import { ImageWrapper } from "./image-wrapper";
 
 interface FeaturedCardProps {
-  icon: string;
-  iconAlt: string;
-  title: string;
-  description: string;
-  action: string;
+    icon: string;
+    iconAlt: string;
+    title: string;
+    description: string;
+    action: string;
+    image?: string;
 }
 
 export const FeatureCard = ({
-  icon,
-  iconAlt,
-  title,
-  description,
-  action,
+    icon,
+    iconAlt,
+    title,
+    description,
+    action,
+    image
 }: FeaturedCardProps) => {
-  const baseStyles =
-    "w-full max-w-[370px] h-[346px] flex flex-col items-start gap-4 p-7.5 rounded-[20px] self-stretch";
+    const baseStyles =
+        "w-full h-max flex flex-col items-start gap-4 p-15 rounded-[20px] self-stretch lg:flex-row";
 
-  return (
-    <div className={clsx(baseStyles, "bg-linear-card-gradient shadow-card")}>
-      <IconWrapper icon={icon} altText={iconAlt} className="" />
-      <div className="w-full flex flex-col items-start gap-2.5">
-        <h2 className="font-medium text-[26px] leading-[130%] text-light-gray">
-          {title}
-        </h2>
-        <p className="font-normal text-sm leading-[150%] text-light-gray">
-          {description}
-        </p>
-        <TextLink label={action} href="#" />
-      </div>
-    </div>
-  );
+    return (
+        <div className={clsx(baseStyles, "bg-linear-card-gradient shadow-card")}>
+            <div className="w-full h-full flex flex-col items-start gap-5">
+                <IconWrapper icon={icon} altText={iconAlt} className="" />
+                <div className="w-full max-w-[458px] flex flex-col items-start gap-2.5">
+                    <h2 className="font-medium text-[26px] leading-[130%] text-light-gray">
+                        {title}
+                    </h2>
+                    <p className="font-normal text-sm leading-[150%] text-light-gray">
+                        {description}
+                    </p>
+                    <TextLink label={action} href="#" />
+                </div>
+            </div>
+            {image && <ImageWrapper image={image} altText={title} />}
+        </div>
+    );
 };
