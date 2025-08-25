@@ -1,7 +1,11 @@
+import { LogoSection } from "./components/sections/logo-section";
+
 export default function App() {
   return (
     <>
-      <h1 className="text-2xl font-semibold">Here goes your code.</h1>
+      <main className="bg-dark-purple min-h-screen flex flex-col items-center px-5 lg:px-10">
+        <LogoSection />
+      </main>
     </>
   );
 }
