@@ -2,6 +2,7 @@
 import analyticsIcon from "../assets/icons/analytics-icon.png";
 import codeIcon from "../assets/icons/code-icon.png";
 import digitalIcon from "../assets/icons/digital-icon.png";
+import codeInterface from "../assets/images/code-interface.png";
 
 /* Logo images import */
 import dell from "../assets/images/logo-dell.png";
@@ -33,7 +34,8 @@ export const features = [
         iconAlt: "Code icon",
         title: "Code collaboration",
         description: "Our advanced code synchronization technology ensures that your data is always up-to-date and accurate, no matter where it's coming from. Whether you're integrating data from multiple sources or working with a team of developers, our synchronization technology makes it easy to collaborate and ensure that your data is consistent and reliable.",
-        action: "View code collaboration"
+        action: "View code collaboration",
+        image: codeInterface
     },
 ]
 
