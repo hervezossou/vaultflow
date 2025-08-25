@@ -12,7 +12,7 @@ export const ImageWrapper = ({ image, altText }: ImageWrapperProps) => {
   return (
     <div
       className={clsx(
-        "size-max flex items-center justify-center",
+        "size-full flex items-center justify-center",
         customShadow,
       )}
     >
