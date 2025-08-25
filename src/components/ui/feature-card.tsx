@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { IconWrapper } from "./icon-wrapper";
-import { TextLink } from "./TextLink";
+import { TextLink } from "./text-link";
 
 interface FeaturedCardProps {
   icon: string;
