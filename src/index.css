@@ -1,10 +1,30 @@
 @import "tailwindcss";
 
+:root {
+  --card-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --card-shadow:
+    0 -2px 10px 0 rgba(233, 223, 255, 0.3),
+    0 -2px 40px 0 rgba(187, 155, 255, 0.15),
+    0 0.5px 0 0 rgba(255, 255, 255, 0.5) inset;
+}
+
 @theme {
-    --color-dark-purple: oklch(0.1354 0.0692 293.16);
-    --color-rich-black: oklch(0.1522 0.0417 287.52);
-    --color-battleship-gray: oklch(0.6633 0 0);
-    --color-french-gray: oklch(0.8489 0.0098 299.21);
-    --color-light-gray: oklch(0.9431 0 0);
-    --color-anti-flash-white: oklch(0.9668 0.0058 264.53);
+  --color-dark-purple: oklch(0.1354 0.0692 293.16);
+  --color-rich-black: oklch(0.1522 0.0417 287.52);
+  --color-battleship-gray: oklch(0.6633 0 0);
+  --color-french-gray: oklch(0.8489 0.0098 299.21);
+  --color-light-gray: oklch(0.9431 0 0);
+  --color-anti-flash-white: oklch(0.9668 0.0058 264.53);
+}
+
+.bg-linear-card-gradient {
+  background: var(--card-gradient);
+}
+
+.shadow-card {
+  box-shadow: var(--card-shadow);
 }
