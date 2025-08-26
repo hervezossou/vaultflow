@@ -8,11 +8,11 @@ interface ButtonProps {
 
 export const Button = ({ label, onAction, variant }: ButtonProps) => {
   const baseStyles =
-    "px-6 py-3 rounded-[60px] hover:opacity-90 transition-all ease-in-out duration-300";
+    "size-max px-6 py-3 rounded-[60px] transition-all ease-in-out duration-300 cursor-pointer font-medium text-sm lg:text-base";
   const variantStyles =
     variant === "contained"
-      ? "bg-blue-500 text-white"
-      : "border border-blue-500 text-blue-500";
+      ? "bg-blue-5 text-white"
+      : "border border-light-gray text-light-gray hover:bg-light-gray hover:opacity-80 hover:text-dark-purple";
 
   return (
     <button
