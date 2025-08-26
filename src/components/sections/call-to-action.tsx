@@ -19,6 +19,7 @@ export const CallToAction = () => {
                         label="Downaload the app"
                         onAction={handleClickAction}
                         variant="outlined"
+                        className="md:w-72"
                     />
                 </div>
             </div>
