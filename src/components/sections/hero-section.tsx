@@ -28,6 +28,7 @@ export const HeroSection = () => {
                             label="Download the app"
                             variant="contained"
                             onAction={() => alert("App download clicked!")}
+                            className="md:w-max"
                         />
                         <div className="hidden lg:block">
                             <Button
