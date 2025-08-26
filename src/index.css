@@ -20,7 +20,7 @@
 
 body {
   margin: 0 auto;
-  max-width: 1580px;
+  max-width: 1920px;
 }
 
 @theme {
@@ -32,10 +32,28 @@ body {
   --color-anti-flash-white: oklch(0.9668 0.0058 264.53);
 }
 
+.bg-hero {
+  background: url(/src/assets/images/hero-bg.jpg) lightgray -37.404px -6px / 105.195% 101.71% no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .bg-linear-card-gradient {
   background: var(--card-gradient);
 }
 
 .shadow-card {
   box-shadow: var(--card-shadow);
+}
+
+.pill-border {
+  border-radius: 61.909px;
+  border: 1.238px solid rgba(255, 255, 255, 0.30);
+}
+
+.bg-text {
+  background: linear-gradient(146deg, #ECECEC 20.35%, rgba(236, 236, 236, 0.00) 128.73%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
