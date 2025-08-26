@@ -11,8 +11,8 @@ export const Button = ({ label, onAction, variant }: ButtonProps) => {
     "size-max px-6 py-3 rounded-[60px] transition-all ease-in-out duration-300 cursor-pointer font-medium text-sm lg:text-base";
   const variantStyles =
     variant === "contained"
-      ? "bg-blue-5 text-white"
-      : "border border-light-gray text-light-gray hover:bg-light-gray hover:opacity-80 hover:text-dark-purple";
+      ? "bg-light-gray text-rich-dark hover:opacity-80"
+      : "border border-light-gray text-light-gray hover:bg-french-gray hover:text-dark-purple";
 
   return (
     <button
