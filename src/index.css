@@ -30,6 +30,7 @@ body {
   --color-french-gray: oklch(0.8489 0.0098 299.21);
   --color-light-gray: oklch(0.9431 0 0);
   --color-anti-flash-white: oklch(0.9668 0.0058 264.53);
+  --color-federal-blue: oklch(0.2455 0.1389 284.47);
 }
 
 .bg-hero {
