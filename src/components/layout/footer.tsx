@@ -64,7 +64,7 @@ export const Footer = () => {
                 </div>
                 <div className="w-full flex flex-col items-center justify-center gap-4 lg:h-full lg:items-end lg:justify-end lg:w-max lg:mt-[300px]">
                     <LogoWrapper logo={logo} altText="Vaultflow logo" />
-                    <p className="block font-light text-lg text-white lg:hidden">
+                    <p className="block font-light text-center text-lg text-white lg:hidden">
                         © {currentYear} Vaultflow. All rights reserved.
                     </p>
                 </div>
