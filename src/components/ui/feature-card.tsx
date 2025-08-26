@@ -21,13 +21,13 @@ export const FeatureCard = ({
     image
 }: FeaturedCardProps) => {
     const baseStyles =
-        "w-full h-max flex flex-col items-start gap-4 p-15 rounded-[20px] self-stretch lg:flex-row";
+        "w-full h-max flex flex-col items-start gap-6 p-15 rounded-[20px] self-stretch lg:flex-row";
 
     return (
         <div className={clsx(baseStyles, "bg-linear-card-gradient shadow-card")}>
             <div className="w-full h-full flex flex-col items-start gap-5">
                 <IconWrapper icon={icon} altText={iconAlt} className="" />
-                <div className="w-full max-w-[458px] flex flex-col items-start gap-2.5">
+                <div className="w-full lg:max-w-[458px] flex flex-col items-start gap-2.5">
                     <h2 className="font-medium text-[26px] leading-[130%] text-light-gray">
                         {title}
                     </h2>
