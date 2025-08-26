@@ -1,6 +1,7 @@
 import { LogoSection } from "./components/sections/logo-section";
 import { FeaturesSection } from "./components/sections/features-section";
 import { CallToAction } from "./components/sections/call-to-action";
+import { Footer } from "./components/layout/footer";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         <FeaturesSection />
         <CallToAction />
       </main>
+      <Footer />
     </>
   );
 }
