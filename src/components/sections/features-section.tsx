@@ -5,7 +5,7 @@ export const FeaturesSection = () => {
     const featureWithImage = features.filter((feature) => feature.image != null);
 
     return (
-        <section className="w-full max-w-[1200px] flex flex-col items-center px-5 gap-20">
+        <section className="w-full max-w-[1200px] flex flex-col items-center gap-20">
             <div className="max-w-[470px] flex flex-col items-center justify-center gap-17.5 text-center">
                 <h1 className="max-w-[430px] font-medium leading-[120%] text-light-gray text-[42px] lg:text-5xl">
                     Features that work for your future.
