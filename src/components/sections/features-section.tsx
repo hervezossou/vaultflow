@@ -12,7 +12,7 @@ export const FeaturesSection = () => {
                 </h1>
                 <p className="text-lg text-light-gray leading-[160%]">Check out our amazing features and experience the power of Vaultflow for yourself.</p>
             </div>
-            <div className="w-full grid grid-cols-1 gap-8 px-5 lg:px-0 lg:grid-cols-2 lg:gap-4">
+            <div className="w-full grid grid-cols-1 gap-8 px-5 lg:grid-cols-2 lg:gap-4 xl:px-0">
                 {features.slice(0, 2).map((feature, index) => (
                     <FeatureCard
                         key={index}
@@ -24,7 +24,7 @@ export const FeaturesSection = () => {
                     />
                 ))}
             </div>
-            <div className="px-5 lg:px-0 w-full">
+            <div className="px-5 xl:px-0 w-full">
                 {featureWithImage.map((feature, index) => (
                     <FeatureCard
                         key={index}
