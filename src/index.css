@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
 :root {
   --card-gradient: linear-gradient(
@@ -34,7 +34,7 @@ body {
 }
 
 .bg-hero {
-  background: url(/src/assets/images/hero-bg.jpg) lightgray -37.404px -6px / 105.195% 101.71% no-repeat;
+  background: url(/src/assets/images/hero-bg.jpg) lightgray -37.404px -6px / 100% 100% no-repeat;
   background-size: cover;
   background-position: center;
 }
