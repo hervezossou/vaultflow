@@ -58,3 +58,15 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.shadow-analytics {
+  box-shadow: 0 0 36.455px 0 rgba(89, 29, 221, 0.75);
+}
+
+.shadow-digital {
+  box-shadow: 0 0 36.455px 0 rgba(149, 37, 201, 0.75);
+}
+
+.shadow-code {
+  box-shadow: 0 0 36.455px 0 rgba(201, 37, 171, 0.75);
+}
