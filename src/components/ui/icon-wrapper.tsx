@@ -10,7 +10,7 @@ export const IconWrapper = ({ icon, altText, className }: IconWrapperProps) => {
   return (
     <div
       className={clsx(
-        "size-12.5 flex items-center justify-center shadow-icon rounded-2xl",
+        "size-12.5 flex items-center justify-center rounded-2xl",
         className,
       )}
     >
